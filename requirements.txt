@@ -1,0 +1,11 @@
+# This is required for portability and be able to share this project easily with others!
+# requirements.txt shows all needed installs and their required versions
+
+# Example of needed libraries/versions
+#matplotlib # If no version is listed it doesn't require a version. COMMENTED OUT FOR QUICKER DOWNLOAD
+#numpy==1.15.4 # Need that exact version for numpy library COMMENTED OUT FOR QUICKER DOWNLOAD
+pycodestyle>=2.4.0 # Minimum version for pycodestyle library
+
+# Now anyone that has this code shared with them can do in the terminal:
+# pip install -r requirements.txt
+# This will allow them to have all the required installs! Now they have all the libraries installed to run your code!

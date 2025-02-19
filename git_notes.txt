@@ -1,0 +1,37 @@
+### Steps to push your code to GitHub ###
+
+# Do this at the main root folder #
+
+git init                                                                     # Creates your git files *ONLY NEEDS TO BE DONE ONCE*
+git remote add origin https://github.com/rettag/python_proper_file_structure # Add your git repository link here. This connects your code to github
+git add .                                                                    # Save to "Memory Card"
+git commit -m "Initial commit"                                               # Save to "Memory Card"
+git branch -M main                                                           # Commit to GitHub
+git push -u origin main                                                      # Commit to GitHub
+
+### Your code will be commited to github! ###
+
+## REMEMBER TO ADD A .gitignore ###
+## Common Code To Add ##
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Pytest
+.cache/
+.pytest_cache/
+
+### Look up 'subprocess' library. This will allow you to run a python script that pushs your code to GitHub. ###
