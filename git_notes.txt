@@ -11,6 +11,10 @@ git push -u origin main                                                      # C
 
 ### Your code will be commited to github! ###
 
+# Update Files #
+
+git pull --rebase origin main
+
 ## REMEMBER TO ADD A .gitignore ###
 ## Common Code To Add ##
 
